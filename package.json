@@ -1,8 +1,9 @@
 {
-  "name": "pylar",
+  "name": "pylar-docs",
   "version": "0.1.0",
   "description": "Pylar",
   "repository": "https://github.com/pylar-io/pylar.git",
+  "homepage": "https://pylar-io.github.io/docs",
   "license": "MIT",
   "dependencies": {}
 }
