@@ -2,6 +2,8 @@
 
 An open-source hardware (OSHW) aerobic composting project, modeled as a http://mach30.github.io/dof[DOF] component.
 
+Full documentation is available on https://pylar-io.github.io/pylar.
+
 == View the documentation locally
 
 You can build the documentation site on a local desktop:
