@@ -1,0 +1,8 @@
+{
+  "name": "pylar",
+  "version": "0.1.0",
+  "description": "Pylar",
+  "repository": "https://github.com/pylar-io/pylar.git",
+  "license": "MIT",
+  "dependencies": {}
+}

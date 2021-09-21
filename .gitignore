@@ -348,3 +348,18 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Sliderule
+.sr
+
+# node modules
+node_modules/
+
+# bundler
+_build
+
+# build script generated files
+dist/
+
+# github action keys
+gh-pages*
