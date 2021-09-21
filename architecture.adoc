@@ -1,0 +1,35 @@
+= Pylar
+:doc-name: architecture.adoc
+:revnumber: v0.1.0
+:toc: left
+
+ifndef::backend-pdf[]
+image:https://img.shields.io/badge/License-MIT-yellow.svg[MIT License, link=https://opensource.org/licenses/MIT]
+image:https://img.shields.io/badge/Contribute%20on-GitHub-orange[Contribute on GitHub, link=https://github.com/pylar-io/pylar.git]
+image:https://img.shields.io/badge/Download%20-PDF-blue[Download PDF, link=/pylar/pylar-architecture.pdf]
+endif::[]
+
+<<<
+
+== Stakeholder Needs
+
+The Pylar is guided by a series of stakeholder needs, listed below.
+
+
+=== 1: Optimum Compost Temperature
+****
+In an aerobic composting system, the optimum temperature range for thermophilic organisms that yields both rapid decomposition, as well as the destruction of pathogenic organisms and undesirable weed seeds, is 57°C - 71°C (135°F - 160°F).footnote:1-CompostNeedsTemperature["Compost Needs - Temperature," Compost fundamentals. WSU Whatcom County Extension. http://whatcom.wsu.edu/ag/compost/fundamentals/needs_temperature.htm]
+****
+
+
+
+== User Stories
+
+The Pylar's stakeholder needs are then used to identify a series of user stories which then lead to design decisions captured in data structure and activity definitions.
+
+
+
+== Data Structures
+This section covers each data structure type in the *Pylar*.
+
+

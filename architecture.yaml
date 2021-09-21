@@ -1,0 +1,28 @@
+elements:
+  0-References/1-CompostNeedsTemperature.yaml: &ref_0
+    title: >-
+      "Compost Needs - Temperature," Compost fundamentals. WSU Whatcom County
+      Extension.
+    url: http://whatcom.wsu.edu/ag/compost/fundamentals/needs_temperature.htm
+  1-StakeholderNeeds/1-OptimumCompostTemperature.yaml: &ref_1
+    id: 1
+    name: Optimum Compost Temperature
+    statement: >-
+      In an aerobic composting system, the optimum temperature range for
+      thermophilic organisms that yields both rapid decomposition, as well as
+      the destruction of pathogenic organisms and undesirable weed seeds, is
+      57°C - 71°C (135°F - 160°F).
+    derivedFrom:
+      - 0-References/1-CompostNeedsTemperature.yaml
+package:
+  name: pylar
+  version: 0.1.0
+  description: Pylar
+  repository: https://github.com/pylar-io/pylar.git
+  license: MIT
+  dependencies: {}
+generationDate: 9/21/2021
+0-References:
+  - *ref_0
+1-StakeholderNeeds:
+  - *ref_1
