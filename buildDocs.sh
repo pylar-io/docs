@@ -31,4 +31,4 @@ docker run --rm -v "$PWD:/src" -w "/src" capsulecorplab/asciidoctor-extended:liq
 docker run --rm -v "$PWD:/src" -w "/src" asciidoctor/docker-asciidoctor asciidoctor dist/architecture.adoc -r asciidoctor-diagram -o dist/index.html
 
 # generate pylar-architecture.pdf
-docker run --rm -v "$PWD:/src" -w "/src" asciidoctor/docker-asciidoctor asciidoctor dist/architecture.adoc -o dist/pylar-architecture.pdf -r asciidoctor-pdf -r asciidoctor-diagram -b pdf -a pdf-theme=dist/pdf-theme.yml
+docker run --rm -v "$PWD:/src" -w "/src" asciidoctor/docker-asciidoctor asciidoctor dist/architecture.adoc -o dist/pylar-docs-architecture.pdf -r asciidoctor-pdf -r asciidoctor-diagram -b pdf -a pdf-theme=dist/pdf-theme.yml
