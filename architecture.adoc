@@ -6,7 +6,7 @@
 ifndef::backend-pdf[]
 image:https://img.shields.io/badge/License-MIT-yellow.svg[MIT License, link=https://opensource.org/licenses/MIT]
 image:https://img.shields.io/badge/Contribute%20on-GitHub-orange[Contribute on GitHub, link=https://github.com/pylar-io/pylar.git]
-image:https://img.shields.io/badge/Download%20-PDF-blue[Download PDF, link=/pylar/pylar-architecture.pdf]
+image:https://img.shields.io/badge/Download%20-PDF-blue[Download PDF, link=https://pylar-io.github.io/docs/pylar-docs-architecture.pdf]
 endif::[]
 
 <<<
